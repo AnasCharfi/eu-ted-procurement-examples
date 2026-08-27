@@ -27,8 +27,6 @@ source links, quality reports, and optional Parquet exports.
 - [Analyze dataset rows with pandas](notebooks/procurement_leads_analysis.ipynb)
 - [Query Parquet exports with DuckDB](notebooks/duckdb_parquet.ipynb)
 - [CRM import mapping](crm/README.md)
-- [Launch kit and ready-to-share copy](marketing/launch-kit.md)
-- [Customer-dense channel plan](marketing/channel-plan.md)
 
 ## Example input
 
