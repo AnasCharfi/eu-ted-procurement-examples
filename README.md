@@ -1,7 +1,7 @@
-# EU TED Procurement Intelligence Examples
+# EU TED Tenders & Procurement Leads Examples
 
 Public examples for using the
-[EU TED Procurement Intelligence](https://apify.com/arclay-tn/eu-ted-procurement-intelligence)
+[EU TED Tenders & Procurement Leads](https://apify.com/arclay-tn/eu-ted-procurement-intelligence)
 Apify Actor.
 
 This repository contains usage examples only. It does not include the private
@@ -10,8 +10,8 @@ Actor implementation.
 ## What the Actor does
 
 The Actor turns official EU Tenders Electronic Daily notices into normalized,
-privacy-safe procurement lead data with buyer, country, CPV, value, dates,
-source links, quality reports, and optional Parquet exports.
+privacy-safe EU tender and procurement lead data with buyer, country, CPV,
+value, dates, source links, quality reports, and optional Parquet exports.
 
 ## Quick start
 
