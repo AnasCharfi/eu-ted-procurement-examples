@@ -1,0 +1,3 @@
+notice_id,buyer_name,buyer_country,title,main_cpv,publication_date,deadline,estimated_value,estimated_currency,source_url,owner,stage
+512345-2025,Example public buyer,FRA,Software development and support services,72000000,2025-08-04,2025-09-10,250000,EUR,https://ted.europa.eu/example,France sales,New
+612345-2025,Example hospital buyer,POL,Medical devices framework,33000000,2025-08-05,2025-09-12,180000,EUR,https://ted.europa.eu/example,Healthcare sales,New

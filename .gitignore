@@ -1,0 +1,6 @@
+.env
+*.csv
+!crm/sample_crm_import.csv
+.ipynb_checkpoints/
+__pycache__/
+node_modules/
