@@ -17,7 +17,7 @@ source links, quality reports, and optional Parquet exports.
 
 1. Open the Actor on Apify Store.
 2. Choose a date range of up to 31 days.
-3. Optionally filter by buyer country or CPV prefix.
+3. Optionally filter by buyer country, CPV prefix, procurement stage, or minimum value.
 4. Run the Actor and export results as JSON, CSV, Excel, or Parquet.
 
 ## Examples
@@ -43,15 +43,36 @@ source links, quality reports, and optional Parquet exports.
 }
 ```
 
+## High-value awards input
+
+```json
+{
+  "dateFrom": "2025-08-01",
+  "dateTo": "2025-08-31",
+  "procurementStage": "result",
+  "minEstimatedValue": 1000000,
+  "maxResults": 100,
+  "includeParquet": true
+}
+```
+
 ## Useful filters
 
-| Use case | Country | CPV |
-| --- | --- | --- |
-| France public tenders | `FRA` | leave blank |
-| Germany IT procurement | `DEU` | `72*` |
-| Construction tenders | leave blank | `45*` |
-| Healthcare notices | leave blank | `33*` |
-| Poland tenders | `POL` | leave blank |
+| Use case | Country | CPV | Stage | Min value |
+| --- | --- | --- | --- | --- |
+| France public tenders | `FRA` | leave blank | leave blank | leave blank |
+| Germany IT procurement | `DEU` | `72*` | leave blank | leave blank |
+| Construction tenders | leave blank | `45*` | leave blank | leave blank |
+| Healthcare notices | leave blank | `33*` | leave blank | leave blank |
+| Software and IT services | leave blank | `72*` | leave blank | leave blank |
+| High-value EU awards | leave blank | leave blank | `result` | `1000000` |
+| Poland tenders | `POL` | leave blank | leave blank | leave blank |
+
+## Pricing examples
+
+The Actor is priced from $1.90 per 1,000 results on Apify. For example, 100
+results costs about $0.19 before any Apify account usage limits or platform
+changes. Always check the live Apify Store listing for current price.
 
 ## Output mapping
 

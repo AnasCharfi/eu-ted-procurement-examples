@@ -88,7 +88,8 @@ It supports filters for publication date, buyer country, and CPV code/prefix.
 Output fields include buyer, buyer country, CPV, estimated value, procurement
 stage, dates, and official source URL. I also published examples for France,
 Germany IT procurement, construction tenders, healthcare procurement, CPV 72
-software/IT services, high-value award discovery, and Poland tender leads.
+software/IT services, high-value award discovery (`stage=result`,
+`minEstimatedValue=1000000`), and Poland tender leads.
 
 Actor:
 https://apify.com/arclay-tn/eu-ted-procurement-intelligence
@@ -153,3 +154,5 @@ Anas
 - Mention price simply: from $1.90 per 1,000 results.
 - Include examples repo for trust.
 - Include Apify Actor link as primary CTA.
+- Avoid implying legal, procurement, financial, or compliance advice; tell users
+  to verify important decisions at the official TED notice source.
