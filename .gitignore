@@ -1,6 +1,10 @@
 .env
-*.csv
-!crm/sample_crm_import.csv
-.ipynb_checkpoints/
-__pycache__/
+.env.*
+!.env.example
 node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+*.csv
+*.parquet
+*.duckdb

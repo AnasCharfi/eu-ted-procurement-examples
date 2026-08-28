@@ -6,6 +6,7 @@ Apify Actor.
 
 This repository contains usage examples only. It does not include the private
 Actor implementation.
+See [SECURITY.md](SECURITY.md) for token and issue-reporting guidance.
 
 ## What the Actor does
 
