@@ -49,6 +49,7 @@ placing a large run.
 ## Examples
 
 - [Run the Actor with Python](examples/python_fetch_dataset.py)
+- [Run any public Arclay Actor with Python](examples/run_catalog_actor.py)
 - [Run the Actor with Node.js](examples/node_run_actor.mjs)
 - [Analyze dataset rows with pandas](notebooks/procurement_leads_analysis.ipynb)
 - [Query Parquet exports with DuckDB](notebooks/duckdb_parquet.ipynb)
