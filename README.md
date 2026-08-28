@@ -47,6 +47,12 @@ Install the Python examples' dependencies:
 python -m pip install -r requirements.txt
 ```
 
+For the Node.js examples, install the pinned dependency:
+
+```powershell
+npm install
+```
+
 Set your Apify token in the environment. Never commit the token:
 
 ```powershell
