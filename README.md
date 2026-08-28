@@ -13,6 +13,21 @@ The Actor turns official EU Tenders Electronic Daily notices into normalized,
 privacy-safe EU tender and procurement lead data with buyer, country, CPV,
 value, dates, source links, quality reports, and optional Parquet exports.
 
+## Other public Arclay data Actors
+
+- [EU Procurement Buyer & Supplier Intelligence](https://apify.com/arclay-tn/eu-procurement-buyer-supplier-intelligence)
+  - normalized buyer and supplier intelligence for public-sector sales.
+- [EU Funding Calls Intelligence](https://apify.com/arclay-tn/eu-funding-calls-intelligence)
+  - official grant and tender opportunity rows for proposal pipelines.
+- [EU Product Safety Recall Intelligence](https://apify.com/arclay-tn/eu-product-safety-recall-intelligence)
+  - official Safety Gate alerts for recall and marketplace workflows.
+- [EU Industrial Facility Intelligence](https://apify.com/arclay-tn/eu-industrial-facility-intelligence)
+  - public industrial facility and reporting records from the EEA.
+
+Each listing has its own input schema, output contract, and current pricing.
+The examples repository contains usage material only; Actor implementations
+remain private.
+
 ## Quick start
 
 1. Open the Actor on Apify Store.
