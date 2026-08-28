@@ -47,6 +47,20 @@ Install the Python examples' dependencies:
 python -m pip install -r requirements.txt
 ```
 
+Set your Apify token in the environment. Never commit the token:
+
+```powershell
+$env:APIFY_TOKEN = "your-apify-token"
+```
+
+Run a catalog Actor with the generic API example:
+
+```powershell
+python examples/run_catalog_actor.py `
+  arclay-tn/eu-funding-calls-intelligence `
+  '{"searchQuery":"digital","maxItems":10}'
+```
+
 1. Open the Actor on Apify Store.
 2. Choose a date range of up to 31 days.
 3. Optionally filter by buyer country, CPV prefix, procurement stage, or minimum value.
