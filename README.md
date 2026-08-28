@@ -28,6 +28,17 @@ Each listing has its own input schema, output contract, and current pricing.
 The examples repository contains usage material only; Actor implementations
 remain private.
 
+| Workflow | Listing | Introductory price |
+| --- | --- | ---: |
+| EU tender discovery and lead generation | [TED Procurement Intelligence](https://apify.com/arclay-tn/eu-ted-procurement-intelligence) | $1.90 / 1,000 rows |
+| Buyer and supplier account intelligence | [Buyer & Supplier Intelligence](https://apify.com/arclay-tn/eu-procurement-buyer-supplier-intelligence) | $1.90 / 1,000 rows |
+| Grants and proposal pipeline discovery | [Funding Calls Intelligence](https://apify.com/arclay-tn/eu-funding-calls-intelligence) | $1.90 / 1,000 rows |
+| Recall and marketplace safety workflows | [Product Safety Recall Intelligence](https://apify.com/arclay-tn/eu-product-safety-recall-intelligence) | $1.90 / 1,000 rows |
+| Industrial and ESG market analysis | [Industrial Facility Intelligence](https://apify.com/arclay-tn/eu-industrial-facility-intelligence) | $2.50 / 1,000 rows |
+
+Prices are introductory and may change; confirm the live Store listing before
+placing a large run.
+
 ## Quick start
 
 1. Open the Actor on Apify Store.
