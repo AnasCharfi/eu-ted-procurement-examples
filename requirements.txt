@@ -1,0 +1,2 @@
+apify-client>=3,<4
+pandas>=2,<4

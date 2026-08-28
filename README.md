@@ -41,6 +41,12 @@ placing a large run.
 
 ## Quick start
 
+Install the Python examples' dependencies:
+
+```powershell
+python -m pip install -r requirements.txt
+```
+
 1. Open the Actor on Apify Store.
 2. Choose a date range of up to 31 days.
 3. Optionally filter by buyer country, CPV prefix, procurement stage, or minimum value.
