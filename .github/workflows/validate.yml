@@ -23,4 +23,4 @@ jobs:
       - run: npm ci
       - run: python -m py_compile examples/*.py
       - run: for file in examples/*.mjs; do node --check "$file"; done
-      - run: python -c "import json, pathlib; [json.loads(p.read_text(encoding='utf-8')) for p in pathlib.Path('notebooks').glob('*.ipynb')]"
+      - run: python -c "import json, pathlib; paths=list(pathlib.Path('notebooks').glob('*.ipynb'))+list(pathlib.Path('examples/inputs').glob('*.json')); [json.loads(p.read_text(encoding='utf-8')) for p in paths]"
