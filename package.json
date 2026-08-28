@@ -1,0 +1,8 @@
+{
+  "name": "eu-ted-procurement-examples",
+  "private": false,
+  "type": "module",
+  "dependencies": {
+    "apify-client": "^2.25.0"
+  }
+}
