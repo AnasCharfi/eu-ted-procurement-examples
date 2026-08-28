@@ -83,6 +83,10 @@ python examples/run_catalog_actor.py `
 - [Query Parquet exports with DuckDB](notebooks/duckdb_parquet.ipynb)
 - [CRM import mapping](crm/README.md)
 
+Ready-made inputs for the additional Actors are in
+[`examples/inputs/`](examples/inputs/). Pass any JSON file's contents to the
+generic Python or Node runner after checking the linked Actor's current schema.
+
 ## Example input
 
 ```json

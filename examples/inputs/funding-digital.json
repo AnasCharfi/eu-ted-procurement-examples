@@ -1,0 +1,6 @@
+{
+  "text": "digital",
+  "recordTypes": ["0", "1", "2", "8"],
+  "openOnly": true,
+  "maxResults": 100
+}
