@@ -1,8 +1,8 @@
-# EU TED Tenders & Procurement Leads Examples
+# Arclay EU Public Data Actors: Examples
 
-Public examples for using the
+Public examples for using Arclay's
 [EU TED Tenders & Procurement Leads](https://apify.com/arclay-tn/eu-ted-procurement-intelligence)
-Apify Actor.
+and related public-data Actors on Apify.
 
 This repository contains usage examples only. It does not include the private
 Actor implementation.
@@ -89,6 +89,13 @@ generic Python or Node runner after checking the linked Actor's current schema.
 The Industrial example uses `NO` and reporting year `2001`, a verified
 non-empty slice of the current EEA layer; availability varies by country and
 year.
+
+| File | Actor | Purpose |
+| --- | --- | --- |
+| `buyer-supplier-france.json` | Buyer & Supplier Intelligence | French buyer and supplier organizations |
+| `funding-digital.json` | Funding Calls Intelligence | Open digital funding opportunities |
+| `industrial-norway.json` | Industrial Facility Intelligence | Verified EEA facility-reporting sample |
+| `safety-battery.json` | Product Safety Recall Intelligence | Battery-related Safety Gate alerts |
 
 ## Example input
 
