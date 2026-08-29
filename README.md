@@ -86,6 +86,9 @@ python examples/run_catalog_actor.py `
 Ready-made inputs for the additional Actors are in
 [`examples/inputs/`](examples/inputs/). Pass any JSON file's contents to the
 generic Python or Node runner after checking the linked Actor's current schema.
+The Industrial example uses `NO` and reporting year `2001`, a verified
+non-empty slice of the current EEA layer; availability varies by country and
+year.
 
 ## Example input
 
