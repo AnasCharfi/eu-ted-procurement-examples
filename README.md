@@ -65,12 +65,12 @@ Run a catalog Actor with the generic API example:
 ```powershell
 python examples/run_catalog_actor.py `
   arclay-tn/eu-funding-calls-intelligence `
-  '{"searchQuery":"digital","maxItems":10}'
+  '{"text":"digital","maxResults":10}'
 ```
 
 1. Open the Actor on Apify Store.
-2. Choose a date range of up to 31 days.
-3. Optionally filter by buyer country, CPV prefix, procurement stage, or minimum value.
+2. For TED searches, leave dates blank for the last seven completed UTC days, or provide a date range of up to 31 days.
+3. Match filters to the linked Actor schema: buyer country, CPV prefix, procurement stage, minimum value, funding text, safety keyword, or industrial country/year/activity.
 4. Run the Actor and export results as JSON, CSV, Excel, or Parquet.
 
 ## Examples
@@ -109,6 +109,22 @@ year.
   "includeLots": true
 }
 ```
+
+For a quick TED smoke test, dates may be omitted. The Actor then uses the last
+seven completed UTC days and keeps the request bounded:
+
+```json
+{
+  "country": "FRA",
+  "cpv": "72",
+  "maxResults": 100,
+  "includeParquet": false
+}
+```
+
+Funding uses `text`, `recordTypes`, `openOnly`, and `maxResults`; it does not use
+TED date, country, or CPV fields. Safety requires a keyword. Industrial filters
+use `countryCode`, `reportingYear`, `sectorCode`, and `maxFacilities`.
 
 ## High-value awards input
 
