@@ -29,6 +29,19 @@ Each listing has its own input schema, output contract, and current pricing.
 The examples repository contains usage material only; Actor implementations
 remain private.
 
+## Try a live example
+
+Use a prefilled public task before writing integration code:
+
+- [EU Safety Gate recall search](https://apify.com/arclay-tn/eu-product-safety-recall-intelligence/examples/eu-safety-gate-recall-search-toy-example)
+- [EU funding opportunity search](https://apify.com/arclay-tn/eu-funding-calls-intelligence/examples/eu-funding-search-open-calls-example)
+- [Buyer and supplier intelligence](https://apify.com/arclay-tn/eu-procurement-buyer-supplier-intelligence/examples/eu-buyer-and-supplier-intelligence-it-example)
+- [Industrial facility reporting](https://apify.com/arclay-tn/eu-industrial-facility-intelligence/examples/eu-industrial-facilities-germany-2017-example)
+- [TED Poland procurement leads](https://apify.com/arclay-tn/eu-ted-procurement-intelligence/examples/poland-public-tender-leads)
+
+Each task opens with a bounded input and a visible output preview. The task
+pages are demonstrations, not guarantees that every future query returns rows.
+
 | Workflow | Listing | Introductory price |
 | --- | --- | ---: |
 | EU tender discovery and lead generation | [TED Procurement Intelligence](https://apify.com/arclay-tn/eu-ted-procurement-intelligence) | $1.90 / 1,000 rows |
