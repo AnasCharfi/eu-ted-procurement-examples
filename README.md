@@ -8,6 +8,8 @@ This repository contains usage examples only. It does not include the private
 Actor implementation.
 See [SECURITY.md](SECURITY.md) for token and issue-reporting guidance.
 
+Latest packaged examples: [v0.1.0 release](https://github.com/AnasCharfi/eu-ted-procurement-examples/releases/tag/v0.1.0).
+
 ## What the Actor does
 
 The Actor turns official EU Tenders Electronic Daily notices into normalized,
