@@ -153,14 +153,12 @@ use `countryCode`, `reportingYear`, `sectorCode`, and `maxFacilities`.
 ## High-value awards input
 
 ```json
-{
-  "dateFrom": "2025-08-01",
-  "dateTo": "2025-08-31",
-  "procurementStage": "result",
-  "minEstimatedValue": 1000000,
-  "maxResults": 100,
-  "includeParquet": true
-}
+    {
+      "procurementStage": "result",
+      "minEstimatedValue": 1000000,
+      "maxResults": 100,
+      "includeParquet": false
+    }
 ```
 
 ## Useful filters
