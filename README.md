@@ -112,15 +112,24 @@ year.
 | `industrial-norway.json` | Industrial Facility Intelligence | Verified EEA facility-reporting sample |
 | `safety-battery.json` | Product Safety Recall Intelligence | Battery-related Safety Gate alerts |
 
+## First successful run
+
+Start with a bounded, date-free query so the Actor selects the last seven
+completed UTC days. This avoids copying an expired date window from an old
+example and is the quickest way to validate the workflow.
+
+1. Open the [TED Procurement Intelligence Actor](https://apify.com/arclay-tn/eu-ted-procurement-intelligence).
+2. Choose **Try for free** and enter the input below.
+3. Run it, then inspect the dataset and download JSON, CSV, or Parquet.
+
 ## Example input
 
 ```json
 {
-  "dateFrom": "2025-08-01",
-  "dateTo": "2025-08-07",
   "country": "FRA",
+  "cpv": "72",
   "maxResults": 100,
-  "includeParquet": true,
+  "includeParquet": false,
   "includeLots": true
 }
 ```
