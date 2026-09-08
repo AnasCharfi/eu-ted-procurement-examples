@@ -1,0 +1,57 @@
+name: Workflow request
+description: Describe a public-data workflow you want to validate with Arclay Actors.
+title: "Workflow request: "
+labels:
+  - workflow-request
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for a public-source data workflow question. Do not include
+        API tokens, credentials, personal data, confidential company data, or
+        restricted records.
+  - type: dropdown
+    id: actor
+    attributes:
+      label: Starting Actor
+      options:
+        - EU TED Tenders & Procurement Leads
+        - EU Procurement Buyer & Supplier Intelligence
+        - EU Funding Calls Intelligence
+        - EU Product Safety Recall Intelligence
+        - EU Industrial Facility Intelligence
+        - Not sure yet
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Public workflow scope
+      description: Country, sector, CPV, keyword, reporting year, or other non-sensitive filter.
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Desired output
+      description: Fields and destination such as CRM, spreadsheet, BI, DuckDB, JSON, CSV, or Parquet.
+    validations:
+      required: true
+  - type: dropdown
+    id: cadence
+    attributes:
+      label: Intended cadence
+      options:
+        - One-time validation
+        - Weekly monitoring
+        - Recurring workflow
+        - Exploring options
+    validations:
+      required: true
+  - type: checkboxes
+    id: safe
+    attributes:
+      label: Safe to share
+      options:
+        - label: I have excluded credentials, personal data, confidential data, and restricted records.
+          required: true
