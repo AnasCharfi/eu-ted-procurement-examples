@@ -39,3 +39,10 @@ Arclay Actors provide normalized public-source records and source links. They
 do not guarantee eligibility, legal or compliance advice, complete coverage,
 or a particular number of matching rows. Pricing and source availability can
 change; confirm the live Apify listing before a large run.
+
+## Need a workflow review?
+
+For a schema-fit or export-workflow question, use the [Arclay data catalog](https://arclay.tn/automation-data)
+to identify the matching Actor and include the Actor URL, bounded input, and
+desired destination in your request. Do not send tokens, credentials, or
+restricted customer data.
