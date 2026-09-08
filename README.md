@@ -1,5 +1,7 @@
 # Arclay EU Public Data Actors: Examples
 
+[![Validate public examples](https://github.com/Arclay-tn/eu-ted-procurement-examples/actions/workflows/validate.yml/badge.svg)](https://github.com/Arclay-tn/eu-ted-procurement-examples/actions/workflows/validate.yml)
+
 Public examples for using Arclay's
 [EU TED Tenders & Procurement Leads](https://apify.com/arclay-tn/eu-ted-procurement-intelligence)
 and related public-data Actors on Apify.

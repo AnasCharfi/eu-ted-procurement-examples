@@ -1,4 +1,4 @@
-name: Validate examples
+name: Validate public examples
 
 on:
   push:
@@ -11,16 +11,32 @@ jobs:
   examples:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: '20'
           cache: npm
-      - run: python -m pip install -r requirements.txt
-      - run: npm ci
-      - run: python -m py_compile examples/*.py
-      - run: for file in examples/*.mjs; do node --check "$file"; done
-      - run: python -c "import json, pathlib; paths=list(pathlib.Path('notebooks').glob('*.ipynb'))+list(pathlib.Path('examples/inputs').glob('*.json')); [json.loads(p.read_text(encoding='utf-8')) for p in paths]"
+      - name: Install example dependencies
+        run: |
+          python -m pip install --disable-pip-version-check -r requirements.txt
+          npm ci --ignore-scripts --no-audit --no-fund
+      - name: Validate Python examples
+        run: python -m compileall -q examples
+      - name: Validate Node examples
+        run: |
+          node --check examples/node_run_actor.mjs
+          node --check examples/run_catalog_actor.mjs
+      - name: Validate JSON inputs and notebooks
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          for path in list(Path('examples').rglob('*.json')) + list(Path('notebooks').rglob('*.ipynb')):
+              json.loads(path.read_text(encoding='utf-8'))
+          PY
+      - name: Check public tree for credentials
+        run: |
+          ! git grep -n -E 'ghp_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{20,}|sk-[A-Za-z0-9]{20,}' -- . ':!package-lock.json'
