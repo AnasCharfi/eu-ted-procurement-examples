@@ -8,6 +8,19 @@ This repository contains usage examples only. It does not include the private
 Actor implementation.
 See [SECURITY.md](SECURITY.md) for token and issue-reporting guidance.
 
+## Choose a workflow
+
+Use the matching Arclay workflow page for buyer-focused guidance, fields,
+filters, pricing, and a live example before opening the Apify Actor:
+
+| Workflow | Arclay guide | Apify Actor |
+| --- | --- | --- |
+| EU tender discovery and lead generation | [Procurement leads](https://arclay.tn/automation-data/eu-ted-procurement-intelligence) | [TED Actor](https://apify.com/arclay-tn/eu-ted-procurement-intelligence) |
+| Buyer and supplier account intelligence | [Buyer and supplier intelligence](https://arclay.tn/automation-data/eu-procurement-buyer-supplier-intelligence) | [Buyer/Supplier Actor](https://apify.com/arclay-tn/eu-procurement-buyer-supplier-intelligence) |
+| Grants and proposal pipeline discovery | [Funding calls](https://arclay.tn/automation-data/eu-funding-calls-intelligence) | [Funding Actor](https://apify.com/arclay-tn/eu-funding-calls-intelligence) |
+| Recall and marketplace safety workflows | [Product safety recalls](https://arclay.tn/automation-data/eu-product-safety-recall-intelligence) | [Safety Actor](https://apify.com/arclay-tn/eu-product-safety-recall-intelligence) |
+| Industrial and ESG market analysis | [Industrial facility records](https://arclay.tn/automation-data/eu-industrial-facility-intelligence) | [Industrial Actor](https://apify.com/arclay-tn/eu-industrial-facility-intelligence) |
+
 Latest packaged examples: [v0.1.0 release](https://github.com/AnasCharfi/eu-ted-procurement-examples/releases/tag/v0.1.0).
 
 ## What the Actor does
