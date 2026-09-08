@@ -8,6 +8,9 @@ This repository contains usage examples only. It does not include the private
 Actor implementation.
 See [SECURITY.md](SECURITY.md) for token and issue-reporting guidance.
 
+See [EU Data API use cases](docs/use-cases.md) for buyer-focused workflows
+across procurement, funding, safety, and industrial data.
+
 ## Choose a workflow
 
 Use the matching Arclay workflow page for buyer-focused guidance, fields,
