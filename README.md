@@ -21,7 +21,7 @@ filters, pricing, and a live example before opening the Apify Actor:
 | Recall and marketplace safety workflows | [Product safety recalls](https://arclay.tn/automation-data/eu-product-safety-recall-intelligence) | [Safety Actor](https://apify.com/arclay-tn/eu-product-safety-recall-intelligence) |
 | Industrial and ESG market analysis | [Industrial facility records](https://arclay.tn/automation-data/eu-industrial-facility-intelligence) | [Industrial Actor](https://apify.com/arclay-tn/eu-industrial-facility-intelligence) |
 
-Latest packaged examples: [v0.1.0 release](https://github.com/AnasCharfi/eu-ted-procurement-examples/releases/tag/v0.1.0).
+Latest packaged examples: [v0.1.0 release](https://github.com/Arclay-tn/eu-ted-procurement-examples/releases/tag/v0.1.0).
 
 ## What the Actor does
 
