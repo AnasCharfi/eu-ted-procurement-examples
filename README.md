@@ -29,6 +29,19 @@ filters, pricing, and a live example before opening the Apify Actor:
 | Recall and marketplace safety workflows | [Product safety recalls](https://arclay.tn/automation-data/eu-product-safety-recall-intelligence) | [Safety Actor](https://apify.com/arclay-tn/eu-product-safety-recall-intelligence) |
 | Industrial and ESG market analysis | [Industrial facility records](https://arclay.tn/automation-data/eu-industrial-facility-intelligence) | [Industrial Actor](https://apify.com/arclay-tn/eu-industrial-facility-intelligence) |
 
+## Choose your first run
+
+| Need | Start with | Small validation input |
+| --- | --- | --- |
+| Find public-sector sales leads | [TED Procurement Intelligence](https://apify.com/arclay-tn/eu-ted-procurement-intelligence) | `country: FRA`, `cpv: 72`, `maxResults: 100` |
+| Map buyers and suppliers | [Buyer & Supplier Intelligence](https://apify.com/arclay-tn/eu-procurement-buyer-supplier-intelligence) | One country, one sector, `maxResults: 100` |
+| Find grant opportunities | [Funding Calls Intelligence](https://apify.com/arclay-tn/eu-funding-calls-intelligence) | `text: digital`, `openOnly: true` |
+| Monitor product recalls | [Product Safety Recall Intelligence](https://apify.com/arclay-tn/eu-product-safety-recall-intelligence) | `keyword: battery`, small result limit |
+| Research industrial facilities | [Industrial Facility Intelligence](https://apify.com/arclay-tn/eu-industrial-facility-intelligence) | One country and reporting year |
+
+Run one bounded query, inspect source links, and export the result before
+deciding whether a recurring task fits your workflow.
+
 Latest packaged examples: [v0.1.1 release](https://github.com/Arclay-tn/eu-ted-procurement-examples/releases/tag/v0.1.1).
 
 ## What the Actor does
