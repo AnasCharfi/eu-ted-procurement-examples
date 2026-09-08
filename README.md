@@ -42,7 +42,7 @@ filters, pricing, and a live example before opening the Apify Actor:
 Run one bounded query, inspect source links, and export the result before
 deciding whether a recurring task fits your workflow.
 
-Latest packaged examples: [v0.1.1 release](https://github.com/Arclay-tn/eu-ted-procurement-examples/releases/tag/v0.1.1).
+Latest packaged examples: [v0.1.2 release](https://github.com/Arclay-tn/eu-ted-procurement-examples/releases/tag/v0.1.2).
 
 ## What the Actor does
 
