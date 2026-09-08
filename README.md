@@ -219,6 +219,29 @@ Typical fields include notice ID, publication date, buyer name, buyer country,
 notice title, main CPV, estimated value, currency, procurement stage, amendment
 flags, and official source URL.
 
+## Example output
+
+Illustrative shape only; values below are placeholders, not a live notice:
+
+```json
+{
+  "noticeId": "example-notice-id",
+  "publicationDate": "2026-01-15",
+  "buyerName": "Example public buyer",
+  "buyerCountry": "FRA",
+  "noticeTitle": "Example software services procurement",
+  "mainCpv": "72200000",
+  "estimatedValue": 250000,
+  "currency": "EUR",
+  "procurementStage": "planning",
+  "isAmendment": false,
+  "officialSourceUrl": "https://ted.europa.eu/"
+}
+```
+
+Run the linked Actor to receive current records and inspect each official source
+URL before using an output in a business decision.
+
 ## License
 
 Examples are provided under the MIT License.
